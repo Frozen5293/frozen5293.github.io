@@ -21,9 +21,8 @@ article h1{
     font-size:26px;
     margin:0 auto;
 }
-iframe {
+iframe{
     display: block;
-    position:relative;
     width: 600px;
     min-height: 300px;
     height: auto;
