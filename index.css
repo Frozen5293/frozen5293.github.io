@@ -23,6 +23,7 @@ article h1{
 }
 iframe{
     width: 900px;
+    min-height: 450px;
     height: auto;
     margin: 0 auto;
 }
