@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+
 body{
 	background-size:cover;
     background-attachment:fixed;
@@ -10,13 +12,19 @@ div main{
     width:1000px;
     margin:0 auto;
 }
+span .texttitle{
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
 article{
     height:auto;
     min-height:300px;
     width:900px;
     margin:0 auto;
 }
-article h1{
+article{
 	text-align:center;
     font-size:26px;
     margin:0 auto;
