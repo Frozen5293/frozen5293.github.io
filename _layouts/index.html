@@ -2,19 +2,14 @@
 layout: page
 ---
 {{ content }}
+<h1>最新文章</h1>>
 <ul>
   {% for post in site.posts limit:5 %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_string }}
   </li>
   {% endfor %}
-  <li>
-    <a href="/archive">
-      All {{ site.posts.size }} posts...
-    </a>
-  </li>
 </ul>
-<hr/>
 {% for tag in site.index.showtag %}
 <h3>
   {{ tag }}
