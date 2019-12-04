@@ -2,7 +2,6 @@
 layout: page
 ---
 {{ content }}
-<h2>Recent</h2>
 <ul>
   {% for post in site.posts limit:5 %}
   <li>
@@ -15,7 +14,7 @@ layout: page
     </a>
   </li>
 </ul>
-<h2>Essay</h2>
+<hr/>
 {% for tag in site.index.showtag %}
 <h3>
   {{ tag }}
