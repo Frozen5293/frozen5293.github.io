@@ -30,29 +30,16 @@ pre {
   margin-bottom: 0rem;
   border-bottom-width: 0px;
 }
-#rewardButton {
-  background-color: #ec6149;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 1rem;
-  display: block;
-  margin: 0 auto;
-  padding: 0.5rem 1rem;
-  border-width: 0px;
-}
-#rewardQRs {
-  display: none;
-  border-width: 0px;
-}
-.reward_qr {
-  border-width: 0px;
-}
 .sidebar {
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
 }
-.sidebar-social {
+.CloudMusic{
   position: relative;
-  left:-30px;
+  left: -23px;
+
+}
+.sidebar-social {
+  /*This is Link contract*/
   text-align: center;
   font-size: .7rem;
 }
