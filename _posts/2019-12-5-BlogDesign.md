@@ -10,6 +10,7 @@ date: 2019-12-5 1:22
 - 看情况重写一遍css（应该不会没有这么多时间）
 - 看板娘位置放右边，左边的要有人性化的交互（务必）
 - [markdown的写法](https://www.runoob.com/markdown/md-link.html)
+- 教程[jekyll](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
     - __Bug列表__
     1. 由于删了许多文件，应该能简化一下代码
     2. js的运行时间不太对...
