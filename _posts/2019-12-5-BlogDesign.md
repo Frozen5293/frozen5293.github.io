@@ -1,7 +1,7 @@
 ---
 title: BlogDesign
 layout: page
-categories: GameDesigner
+categories: ProgramDesign
 date: 2019-12-5 1:22
 ---
 ## __2019-12-5 1:27__
