@@ -1,7 +1,8 @@
 ---
 title: ModifyGameWithODAndCE
-layout: page
-categories: GameDesigner
+layout: 
+tags: Gamedesign
+categories: GameDesign
 date: 2019-12-5 15:46
 ---
 ## __童年的纸飞机飞回我手里__

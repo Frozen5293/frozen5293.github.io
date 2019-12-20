@@ -2,7 +2,7 @@
 layout: page
 ---
 {{ content }}
-<h1>最新文章</h1>>
+<h2>最新文章</h2>
 <ul>
   {% for post in site.posts limit:5 %}
   <li>
@@ -10,10 +10,13 @@ layout: page
   </li>
   {% endfor %}
 </ul>
+<h1>
+  Index
+</h1>
 {% for tag in site.index.showtag %}
-<h3>
+<h4>
   {{ tag }}
-</h3>
+</h4>
 <ul>
   {% for post in site.tags[tag] %}
   <li>

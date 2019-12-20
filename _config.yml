@@ -218,7 +218,16 @@ sidebar:
     enable: true
     text: '<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" aria-label="Star wu-kan/wu-kan.github.io on GitHub" href="https://github.com/wu-kan/wu-kan.github.io" data-icon="octicon-star" data-show-count="true">Star</a>'
 
-#index:
+index:
+  showtag:
+  - Art
+  - DIY
+  - Language
+  - World
+  - Music
+  - Gamedesign
+  - ProgramDesign
+  - Collection
 
 
 post:

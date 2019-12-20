@@ -1,7 +1,8 @@
 ---
 title: BossDesign
 layout: page
-categories: GameDesigner
+tags: GameDesign
+categories: GameDesign
 date: 2019-12-5 1:22
 ---
 <article>

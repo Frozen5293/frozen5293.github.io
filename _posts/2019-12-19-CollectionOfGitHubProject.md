@@ -1,6 +1,7 @@
 ---
 title: ProjectIndex
 layout: post
+tags: Collection
 categories: Collection
 date: 2019-12-19 22:54
 ---
