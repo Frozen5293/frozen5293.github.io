@@ -12,6 +12,8 @@ data: 2019-12-19 16:32
 > <br/>2.[机械键盘轴体更换教程（大概就是悍掉）](https://jingyan.baidu.com/article/4b07be3c4d424248b280f358.html)
 
 ## 准备东西
+> pcb板，控制芯片，接出去的线,轴体，键盘帽，后盖，前盖，外壳（原谅我说的不专业。。。）
+
 > <br/>1.看着[这家店（GK61）](https://item.taobao.com/item.htm?spm=a230r.1.14.80.1d112601Cw2SeG&id=576501224972&ns=1&abbucket=11#detail)，提供的板子<br/>
 > - 不明白这个东西为什么这么贵。。。
 > - [驱动程序下载地址](http://gk61-drive.oss-cn-shenzhen.aliyuncs.com/gk61.exe)
@@ -47,7 +49,7 @@ pcb尺寸：长431mm 款130mm
 ```
 
 > <br/>3.<b>【已购】</b>[大概装的差不多，上面的小的](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.bb7c2e8dH04CoU&id=607082157698&_u=j2qk6pe1dfb9)
-> <br/><img src="/public/image/003.jpg"/>
+> <br/>45￥<br/><img src="/public/image/003.jpg"/>
 ```
 一批工厂全新的轴板
 104键pcb 贴片灯 混光 
@@ -66,5 +68,5 @@ wasd等常用键以及方向键 为插拔轴设计
 
 > __总之买了两块板子但是不知道有没有外壳，都有轴体，键盘灯（不喜欢），一个没有线...__
 
-> <br/>3.<b></b>[键盘帽](//)
-> <br/><img src="/public/image/003.jpg" alt="先等等"/>
+> <br/>4.<b></b>[键盘帽](//)
+> <br/><img src="/public/image/" alt="先等等"/>
