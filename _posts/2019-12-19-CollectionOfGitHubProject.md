@@ -11,3 +11,5 @@ date: 2019-12-19 22:54
 - 网易云Dos版
 ## __[WSL](https://wiki.ubuntu.com/WSL)__
 - 当时关注的B站的UP参与的系统...
+## __[BullshitGenerator](https://github.com/menzi11/BullshitGenerator)__
+- 狗屁不通文章生成器，夹杂名人名言的废话连篇
