@@ -1,6 +1,6 @@
 ---
 title: ModifyGameWithODAndCE
-layout: 
+layout: page
 tags: Gamedesign
 categories: GameDesign
 date: 2019-12-5 15:46
