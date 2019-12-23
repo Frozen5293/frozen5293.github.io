@@ -1,5 +1,5 @@
 ---
-title: To feel the beautiful and pure World.
+title: To feel the beautiful and pure World.(连载中)
 layout: page
 tags: Art World
 categories: Art

@@ -1,9 +1,9 @@
 ---
-title: LanguagePronunciation
+title: LanguagePronunciation(连载中)
 layout: page
 tags: Language
 categories: Language
-data: 2019-12-06 17:02
+date: 2019-12-06 17:02
 ---
 # 学习方言or其他自然语言的第一步
 ### 音标
