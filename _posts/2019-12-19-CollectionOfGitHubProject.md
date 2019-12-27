@@ -20,4 +20,6 @@ date: 2019-12-19 22:54
 ## __[[知乎]如何让打印出来的字体看起来像手写的？](https://www.zhihu.com/question/20308770)__
 - [\[抄作业神器\]如何制作自己的字体](https://www.bilibili.com/video/av80014696)文中提到的网址<https://www.flexifont.com>
 
-## 
+## __ChromiumOS__
+- [Chromium OS for Raspberry Pi](https://github.com/FydeOS/chromium_os_for_raspberry_pi)<br/>[Chromium OS VM for VMWare](https://github.com/FydeOS/overlay-variant-amd64-generic-vmware/)<br/>[Chromium OS for Tinker Board](https://github.com/FydeOS/chromium_os_for_tinker_board)
+
