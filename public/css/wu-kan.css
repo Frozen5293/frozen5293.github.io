@@ -32,11 +32,12 @@ pre {
 }
 .sidebar {
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
+  width:15rem;
 }
 .CloudMusic{
   position: relative;
   left: -23px;
-
+  width:110%;
 }
 .sidebar-social {
   /*This is Link contract*/

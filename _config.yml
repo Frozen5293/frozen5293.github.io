@@ -155,7 +155,7 @@ sidebar:
     enable: true
     img: https://en.gravatar.com/userimage/147479233/08965c7d1ea7bbe96204490defa28be1.jpg # 头像的地址
     info:  # 头像背后的信息
-  description: '<iframe class="CloudMusic" frameborder="no" border="0" marginwidth="0" marginheight="0" width=250 height=52 src="//music.163.com/outchain/player?type=0&id=2252139184&auto=1&height=32"></iframe>'  #网易云的歌单
+  description: '<iframe class="CloudMusic" frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=300 src="//music.163.com/outchain/player?type=0&id=2252139184&auto=0&height=430"></iframe>'  #网易云的歌单
   social:
   - title: krozen@foxmail.com # email
     href: mailto:krozen@foxmail.com
