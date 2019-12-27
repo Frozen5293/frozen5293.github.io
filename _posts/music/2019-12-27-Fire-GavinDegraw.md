@@ -3,10 +3,10 @@ title: Fire
 layout: page
 tags: Music
 categories: Music
-date: 2019-12-21 01:02
+date: 2019-12-27 18:49
 ---
 
-> ## __Fire__
+> ## __[Fire](http://music.163.com/song?id=29544960&userid=375407847)__
 > <br/>演唱：Gavin Degraw
 <br/>Oh if there's one thing to be taught
 <br/>噢~如果非要我教你些东西的话

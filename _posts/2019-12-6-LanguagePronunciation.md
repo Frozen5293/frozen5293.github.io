@@ -24,5 +24,6 @@ date: 2019-12-06 17:02
 - <br/>10<audio controls height="100" width="100"><source src="/public/voice/10.mp3" type="audio/mpeg"><source src="/public/voice/10.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/10.mp3"></audio>
 - <br/>11<audio controls height="100" width="100"><source src="/public/voice/11.mp3" type="audio/mpeg"><source src="/public/voice/11.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/11.mp3"></audio>
 - <br/>12<audio controls height="100" width="100"><source src="/public/voice/12.mp3" type="audio/mpeg"><source src="/public/voice/12.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/12.mp3"></audio>
-2. 我还没想好
+2. 日语
+<img src="/public/image/005.jpg"/>
 <hr/>
