@@ -15,6 +15,7 @@ date: 2019-12-19 16:32
 > pcb板(√*2)，控制芯片(√*2)，接出去的线(√*1),轴体(√*2)，键盘帽(√*1)，后盖(√*1)，前盖(√*2)，外壳(√*0)（原谅我说的不专业。。。）
 
 > <br/>1.看着[这家店（GK61）](https://item.taobao.com/item.htm?spm=a230r.1.14.80.1d112601Cw2SeG&id=576501224972&ns=1&abbucket=11#detail)，提供的板子<br/>
+> - <img src="/public/image/blog/keyboard/004.jpg"/><br/>
 > - 不明白这个东西为什么这么贵。。。
 > - [驱动程序下载地址](http://gk61-drive.oss-cn-shenzhen.aliyuncs.com/gk61.exe)
 ```
@@ -27,8 +28,8 @@ USB Type-C可拔插线
 经多次验证，ＧＫ系列键盘，安装轴体的时候 将PCB 和定位板拆出来放在桌子上插轴 ，这样PCB背部轴座有支撑，能大大减少因为插轴没对准，造成的轴座变形或者脱焊现象。
 ```
 
-> <br/>2.<b>【已购】</b>[如图所示](https://item.taobao.com/item.htm?spm=a230r.1.14.22.69cf498eGMLV9H&id=595224664481&ns=1&abbucket=11#detail)
-> <br/>65￥<br/><img src="/public/image/002.jpg" alt="65元"/>
+> <br/>2.<b>【已购】【PCB】</b>[如图所示](https://item.taobao.com/item.htm?spm=a230r.1.14.22.69cf498eGMLV9H&id=595224664481&ns=1&abbucket=11#detail)
+> <br/>65￥<br/><img src="/public/image/blog/keyboard/002.jpg" alt="65元"/>
 ```
 一批工厂抵债公模机械键盘的pcb板
 双面板 pcb做工很好， pcb确实很下料
@@ -48,8 +49,8 @@ USB Type-C可拔插线
 pcb尺寸：长431mm 款130mm
 ```
 
-> <br/>3.<b>【已购】</b>[大概装的差不多，上面的小的](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.bb7c2e8dH04CoU&id=607082157698&_u=j2qk6pe1dfb9)
-> <br/>45￥<br/><img src="/public/image/003.jpg"/>
+> <br/>3.<b>【已购】【PCB】</b>[大概装的差不多，上面的小的](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.bb7c2e8dH04CoU&id=607082157698&_u=j2qk6pe1dfb9)
+> <br/>45￥<br/><img src="/public/image/blog/keyboard/003.jpg"/>
 ```
 一批工厂全新的轴板
 104键pcb 贴片灯 混光 
@@ -68,5 +69,16 @@ wasd等常用键以及方向键 为插拔轴设计
 
 > __总之买了两块板子但是不知道有没有外壳，都有轴体，键盘灯（不喜欢），一个没有线...__
 
-> <br/>4.<b></b>[键盘帽](//)
-> <br/><img src="/public/image/" alt="先等等"/>
+> <br/>4.<b>【已购】</b>[键盘帽](https://detail.tmall.com/item.htm?id=574114532150&spm=a1z09.2.0.0.5d852e8dGXgkcg&_u=62qk6pe1aef9&skuId=4169508898944)
+> <br/><img src="/public/image/blog/keyboard/005.png" alt="蓝白"/>
+```
+还是很好看的
+```
+
+> <br/>4.<b>【已购】</b>[轴体](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.5d852e8dGXgkcg&id=610116717716&_u=62qk6pe1cdae)
+> <br/><img src="/public/image/blog/keyboard/006.png" alt="凯华BOX红轴">
+```
+还是很舒服的有种电影里的键盘声的感觉
+```
+
+> <br/>5.<b>
