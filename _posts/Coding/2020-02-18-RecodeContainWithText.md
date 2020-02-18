@@ -69,9 +69,7 @@ int main(int argc, char* argv[])
     char* zErrMsg = 0; //字串 0
     int rc;
     const char* sql;
-
     rc = sqlite3_open("test.db", &db); //传值给db<<open.database. 
-
     if (rc) {//0 -》 true
         fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
         exit(0);
@@ -117,7 +115,7 @@ int main(int argc, char* argv[])
     return 0;
 }
 ```
-自己的[说明]()
+自己的[说明](/posts/programdesign/SQLiteFirstProgranm)
 
 ### Q6:这东西除了sql语句，全局设置在哪？
 >
