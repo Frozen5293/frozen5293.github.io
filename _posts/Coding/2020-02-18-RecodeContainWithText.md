@@ -1,11 +1,11 @@
 ---
-title: RecodeContainWithText(连载中)(缺少测试)
+title: RecodeContainWithText
 layout: page
 tags: ProgramDesign
 categories: ProgramDesign
-date: 2020-04-18 15:47
+date: 2020-02-18 15:47
 ---
-```html
+```HTML
 <article>
     <h1>怎样把文本文件当作数据库</h1>
         <p class="interview">
@@ -51,10 +51,77 @@ $sqlite3 filename
 
 ### Q5:我怎么在编程语言中使用？
 > 详细[介绍](https://www.runoob.com/sqlite/sqlite-c-cpp.html)。
+```c++
+#include <stdio.h>
+#include "sqlite3.h"
+#include <stdlib.h>
+static int callback(void* NotUsed, int argc, char** argv, char** azColName) {
+    int i;
+    for (i = 0; i < argc; i++) {
+        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+    printf("\n");
+    return 0;
+}
+int main(int argc, char* argv[])
+{
+    sqlite3* db;//sqlite3 类型数据库
+    char* zErrMsg = 0; //字串 0
+    int rc;
+    const char* sql;
+
+    rc = sqlite3_open("test.db", &db); //传值给db<<open.database. 
+
+    if (rc) {//0 -》 true
+        fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
+        exit(0);
+    }
+    else {
+        fprintf(stderr, "Opened database successfully\n");
+    }
+    /*sql statement*/
+    sql = "CREATE TABLE COMPANY("  \
+        "ID INT PRIMARY KEY     NOT NULL," \
+        "NAME           TEXT    NOT NULL," \
+        "AGE            INT     NOT NULL," \
+        "ADDRESS        CHAR(50)," \
+        "SALARY         REAL );";
+    /*exec sql statement*/
+    rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    if (rc != SQLITE_OK) {
+        fprintf(stderr, "SQL error: %s\n", zErrMsg);
+        sqlite3_free(zErrMsg);
+    }
+    else {
+        fprintf(stdout, "Table created successfully\n");
+    }
+    /* Create SQL statement */
+    sql = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) "  \
+        "VALUES (1, 'Paul', 32, 'California', 20000.00 ); " \
+        "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) "  \
+        "VALUES (2, 'Allen', 25, 'Texas', 15000.00 ); "     \
+        "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)" \
+        "VALUES (3, 'Teddy', 23, 'Norway', 20000.00 );" \
+        "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)" \
+        "VALUES (4, 'Mark', 25, 'Rich-Mond ', 65000.00 );";
+    /* Execute SQL statement */
+    rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    if (rc != SQLITE_OK) {
+        fprintf(stderr, "SQL error: %s\n", zErrMsg);
+        sqlite3_free(zErrMsg);
+    }
+    else {
+        fprintf(stdout, "Records created successfully\n");
+    }
+    sqlite3_close(db);
+    return 0;
+}
+```
+自己的[说明]()
 
 ### Q6:这东西除了sql语句，全局设置在哪？
 >
-```
+```Linux
 .archive ...             Manage SQL archives
 .auth ON|OFF             Show authorizer callbacks
 .backup ?DB? FILE        Backup DB (default "main") to FILE
