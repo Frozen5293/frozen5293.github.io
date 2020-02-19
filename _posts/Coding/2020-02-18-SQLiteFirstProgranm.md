@@ -23,7 +23,7 @@ static int callback(void* NotUsed, int argc, char** argv, char** azColName) {
     printf("\n");
     return 0;
 }
-这个函数到底是干什么的？
+//回调函数
 ------------------------------------------------------------------------------
 int main(int argc, char* argv[])
 {
@@ -56,7 +56,14 @@ int main(int argc, char* argv[])
         "ADDRESS        CHAR(50)," \
         "SALARY         REAL );";
     /*exec sql statement*/
+    -----------------------------------------------------------
     rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+    //这个东西是执行SQL语句（sqlite3，SQL，回调函数，回调函数的第一个参数（void*），SQL错误消息字符串输出（调用sqlite3_free（）））²
+    //回调参数（void*,int，char **,char**）;
+    //第一个 int 是sql语句在该行的列数，
+    //第二个char**是sql语句在该列的值,类型是 数组指针
+    //第三个char**是sql语句在该列Name,类型是 数组指针
+    -----------------------------------------------------------
     if (rc != SQLITE_OK) {
         fprintf(stderr, "SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
@@ -88,4 +95,5 @@ int main(int argc, char* argv[])
 ```
 <article>
 1.[2020-02-18-stderrFunction]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/posts/programdesign/stderrFunction">programdesign/stderrFunction</a>
+2.[SQLite C接口<b>一站式查询执行界面</b>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.sqlite.org/c3ref/exec.html">http://www.sqlite.org/c3ref/exec.html</a>
 </article>
