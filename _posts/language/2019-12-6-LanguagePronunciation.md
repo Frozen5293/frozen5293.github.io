@@ -24,6 +24,15 @@ date: 2019-12-06 17:02
 - <br/>10<audio controls height="100" width="100"><source src="/public/voice/10.mp3" type="audio/mpeg"><source src="/public/voice/10.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/10.mp3"></audio>
 - <br/>11<audio controls height="100" width="100"><source src="/public/voice/11.mp3" type="audio/mpeg"><source src="/public/voice/11.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/11.mp3"></audio>
 - <br/>12<audio controls height="100" width="100"><source src="/public/voice/12.mp3" type="audio/mpeg"><source src="/public/voice/12.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/12.mp3"></audio>
+- <br/>13<audio controls height="100" width="100"><source src="/public/voice/13.mp3" type="audio/mpeg"><source src="/public/voice/13.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/13.mp3"></audio>
+- <br/>14<audio controls height="100" width="100"><source src="/public/voice/14.mp3" type="audio/mpeg"><source src="/public/voice/14.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/14.mp3"></audio>
+- <br/>15<audio controls height="100" width="100"><source src="/public/voice/15.mp3" type="audio/mpeg"><source src="/public/voice/15.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/15.mp3"></audio>
+- <br/>16<audio controls height="100" width="100"><source src="/public/voice/16.mp3" type="audio/mpeg"><source src="/public/voice/16.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/16.mp3"></audio>
+- <br/>17<audio controls height="100" width="100"><source src="/public/voice/17.mp3" type="audio/mpeg"><source src="/public/voice/17.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/17.mp3"></audio>
+- <br/>18<audio controls height="100" width="100"><source src="/public/voice/18.mp3" type="audio/mpeg"><source src="/public/voice/18.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/18.mp3"></audio>
+- <br/>19<audio controls height="100" width="100"><source src="/public/voice/19.mp3" type="audio/mpeg"><source src="/public/voice/19.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/19.mp3"></audio>
+- <br/>20<audio controls height="100" width="100"><source src="/public/voice/20.mp3" type="audio/mpeg"><source src="/public/voice/20.mp3" type="audio/ogg"><embed height="50" width="100" src="/public/voice/20.mp3"></audio>
+
 
 
 > 2.日语
