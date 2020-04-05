@@ -12,7 +12,27 @@ date: 2019-12-5 1:22
 - 看板娘位置放右边，左边的要有人性化的交互（务必）
 - [markdown的写法](https://www.runoob.com/markdown/md-link.html)
 - 教程[jekyll](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
-    - __Bug列表__
+## __2020-04-04 18:43__
+- 首先jekyll 需要ruby2.4
+- 然后windows需要装ruby的时候在弹出的cmd窗口1 2 3选项选择一遍
+- 还有安装Nokogiri才能跑起来ruby
+- > 
+```
+choco install libxml2 -Source "https://www.nuget.org/api/v2/"
+choco install libxslt -Source "https://www.nuget.org/api/v2/"
+choco install libiconv -Source "https://www.nuget.org/api/v2/"
+```
+```
+gem install nokogiri --^
+   --with-xml2-include=C:\Chocolatey\lib\libxml2.2.7.8.7\build\native\include^
+   --with-xml2-lib=C:\Chocolatey\lib\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl^
+   --with-iconv-include=C:\Chocolatey\lib\libiconv.1.14.0.11\build\native\include^
+   --with-iconv-lib=C:\Chocolatey\lib\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl^
+   --with-xslt-include=C:\Chocolatey\lib\libxslt.1.1.28.0\build\native\include^
+   --with-xslt-lib=C:\Chocolatey\lib\libxslt.redist.1.1.28.0\build\native\bin\v110\x64\Release\dynamic
+```
+- 
+    - __预计改动__
     1. 由于删了许多文件，应该能简化一下代码
     2. js的运行时间不太对...
     3. _config.yml 文件中有不少多的东西能删则删。
