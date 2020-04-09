@@ -1,0 +1,10 @@
+@charset "utf-8";
+@media screen and (max-width: 540px) {
+    body {
+        background: url(https://img1.picloli-1.xyz/2020/04/09/Bg1.png);
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
+      }
+}

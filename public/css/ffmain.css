@@ -9,9 +9,10 @@
   }
 }
 body {
-  background: url(https://img1.picloli-1.xyz/2020/04/05/background1.png);
-  background-size:100%;
+  background: url(https://img1.picloli-1.xyz/2020/04/09/background2.png);
   background-repeat: no-repeat;
+  background-size: auto 1080px;
+  background-position:center;
   background-attachment: fixed;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
 }
@@ -19,13 +20,18 @@ h1, h2, h3, h4, h5, h6 {
   color:#673424;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
 }
+blockquote{
+  color: #ed3333;
+}
 pre {
   background-color: rgba(0, 0, 0,0);
-  max-height: 50vh;
   overflow: auto;
 }
 li{
   list-style-type: none;
+}
+ul li a{
+  color:#2b73af;
 }
 .content {
   background-color: rgba(255,255,255,.4);
