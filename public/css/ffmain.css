@@ -79,8 +79,18 @@ ul li a{
   font-size: 0.5em;
   text-align: right;
 }
-
-
+.articlefooter{
+  margin-top: 200px;
+}
+.articlefooter ul li {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction:row;
+}
+.articlefooter ul li site{
+  align-items: flex-end;
+}
 
 
 /*头像效果-start*/
