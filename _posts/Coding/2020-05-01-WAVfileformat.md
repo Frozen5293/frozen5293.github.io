@@ -132,6 +132,110 @@ from: <https://www.jianshu.com/p/9fdc0eaa2dea>
 7          (value & 0x00FF000000000000UL) >> 40 | (value & 0xFF00000000000000UL) >> 56;
 8 }
 ```
+这边文章是介绍如何在 Markdown 中增加文献引用。[<sup>336</sup>](#336)
 
 - 关于反转字节的计算方式解释
 - 我们 假设一个 二字节数  1100  0010 1100 0001 让这个数 & 0000 0000 1111 1111 然后*2^8 就把第一个字节 置空 换到第二个字节 同理 把第二个字节置空 换到第一个字节 然后与运算 就能得到一个二字节数 第一个字节和第二个字节换过来
+
+<https://www.jianshu.com/p/1d1f893e53e9>
+
+
+```java
+private RandomAccessFile fopen(String path) throws IOException {
+    File f = new File(path);
+
+    if (f.exists()) {
+        f.delete();
+    } else {
+        File parentDir = f.getParentFile();
+        if (!parentDir.exists()) {
+            parentDir.mkdirs();
+        }
+    }
+
+    RandomAccessFile file = new RandomAccessFile(f, "rw");
+    // 16K、16bit、单声道
+    /* RIFF header */
+    file.writeBytes("RIFF"); // riff id
+    file.writeInt(0); // riff chunk size *PLACEHOLDER*
+    file.writeBytes("WAVE"); // wave type
+
+    /* fmt chunk */
+    file.writeBytes("fmt "); // fmt id
+    file.writeInt(Integer.reverseBytes(16)); // fmt chunk size
+    file.writeShort(Short.reverseBytes((short) 1)); // format: 1(PCM)
+    file.writeShort(Short.reverseBytes((short) 1)); // channels: 1
+    file.writeInt(Integer.reverseBytes(16000)); // samples per second
+    file.writeInt(Integer.reverseBytes((int) (1 * 16000 * 16 / 8))); // BPSecond
+    file.writeShort(Short.reverseBytes((short) (1 * 16 / 8))); // BPSample
+    file.writeShort(Short.reverseBytes((short) (1 * 16))); // bPSample
+
+    /* data chunk */
+    file.writeBytes("data"); // data id
+    file.writeInt(0); // data chunk size *PLACEHOLDER*
+
+    Log.d(TAG, "wav path: " + path);
+    return file;
+}
+
+private void fwrite(RandomAccessFile file, byte[] data, int offset, int size) throws IOException {
+    file.write(data, offset, size);
+    Log.d(TAG, "fwrite: " + size);
+}
+
+private void fclose(RandomAccessFile file) throws IOException {
+    try {
+        file.seek(4); // riff chunk size
+        file.writeInt(Integer.reverseBytes((int) (file.length() - 8)));
+
+        file.seek(40); // data chunk size
+        file.writeInt(Integer.reverseBytes((int) (file.length() - 44)));
+
+        Log.d(TAG, "wav size: " + file.length());
+
+    } finally {
+        file.close();
+    }
+}
+```
+
+
+
+- 这里就可以这么写了[音调频率][3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[3]: https://pages.mtu.edu/~suits/notefreqs.html "音调"
+
+
+
+
+
+<div id="336"></div>
+
+-  [336] [百度学术](http://xueshu.baidu.com/)
+
+<div id="2"></div>
+
+- [2] [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
