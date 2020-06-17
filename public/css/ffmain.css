@@ -1,3 +1,4 @@
+@charset "utf-8";
 @media (min-width: 70em) {
   .container {
     max-width: 42rem;
@@ -8,6 +9,33 @@
     max-width: 48rem;
   }
 }
+@font-face{
+  font-family: "DINGGO-code";
+  src:
+    url("/public/DinkieBitmap/DinkieBitmapDemo-Code.woff2")format("woff2");
+}
+@font-face{
+  font-family: "DINGGO-7px";
+  src:
+    url("/public/DinkieBitmap/DinkieBitmapDemo-7px.ttf") format("TrueType"),
+    url("/public/DinkieBitmap/DinkieBitmapDemo-7px.woff2") format("woff2");
+}
+@font-face{
+  font-family: "DINGGO-9px";
+  src:
+   url("/public/DinkieBitmap/DinkieBitmapDemo-9px.ttf") format("TrueType"),
+   url("/public/DinkieBitmap/DinkieBitmapDemo-9px.woff2")format("woff2");
+  font-style:normal;
+}
+@font-face{
+  font-family: "DINGGO-Italic-9px";
+  src:
+    url("/public/DinkieBitmap/DinkieBitmapDemo-9pxItalic.ttf")format("TrueType"),
+    url("/public/DinkieBitmap/DinkieBitmapDemo-9pxItalic.woff2")format("woff2");  
+    font-style:italic;
+}
+
+
 body {
   background: url(https://img1.picloli-1.xyz/2020/04/09/background2.png);
   background-repeat: no-repeat;
