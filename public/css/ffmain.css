@@ -32,7 +32,7 @@
   src:
     url("/public/DinkieBitmap/DinkieBitmapDemo-9pxItalic.ttf")format("TrueType"),
     url("/public/DinkieBitmap/DinkieBitmapDemo-9pxItalic.woff2")format("woff2");  
-    font-style:italic;
+  font-style:italic;
 }
 
 
@@ -42,11 +42,11 @@ body {
   background-size: auto 1080px;
   background-position:center;
   background-attachment: fixed;
-  font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
+  font-family: "DINGGO-9px","DINGGO-Italic-9px",Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
 }
 h1, h2, h3, h4, h5, h6 {
   color:#673424;
-  font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
+  font-family: "DINGGO-9px","DINGGO-Italic-9px",Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
 }
 blockquote{
   color: #ed3333;
