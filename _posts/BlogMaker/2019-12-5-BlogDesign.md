@@ -43,8 +43,11 @@ gem install bundler
 - 
 
 ## __markdown笔记__
-- ```
+- 
+
+```
 用法1//这个是论文的引用
+
 [书名][1]
 1. [书名][1]<aaaaa>
 [1]:aaaaa
@@ -55,6 +58,8 @@ gem install bundler
 
 <a id="1"></a>
 ```
+
+
 ## __目录__
 
     - __预计改动__
