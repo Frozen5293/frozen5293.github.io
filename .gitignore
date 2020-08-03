@@ -30,7 +30,10 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
-
+#jekyll
+.jekyll-cache
+Gemfile
+Gemfile.lock
 # Komodo
 *.komodoproject
 .komodotools
