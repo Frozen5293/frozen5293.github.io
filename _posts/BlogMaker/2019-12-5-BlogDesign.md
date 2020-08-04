@@ -42,6 +42,15 @@ gem install bundler
 - > 在你的博客根目录中创建名为 Gemfile 不带任何后缀名的文件
 - 
 
+## __2020-08-04 01:59__
+- 不明白为什么不能用了，查了一下官方的jekyll 文档
+- 说的是
+- 1. 装ruby2.4及以上，以及
+- 2. run ( ___gem install jekyll bundler__  __git fitch(主要是Gemfile这个文件)__ )
+- 3. __Bundle install__
+- 4. 要用 __bundle exec jekyll s__ 保证相同环境
+- - 备注：其中说的ridk是ridk_use下的ridk.cmd
+
 ## __markdown笔记__
 - 
 

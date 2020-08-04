@@ -32,7 +32,6 @@ nbproject
 .idea
 #jekyll
 .jekyll-cache
-Gemfile
 Gemfile.lock
 # Komodo
 *.komodoproject
