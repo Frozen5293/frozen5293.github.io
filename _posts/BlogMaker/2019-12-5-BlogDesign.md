@@ -52,8 +52,6 @@ gem install bundler
 - - 备注：其中说的ridk是ridk_use下的ridk.cmd
 
 ## __markdown笔记__
-- 
-
 ```
 用法1//这个是论文的引用
 
@@ -68,6 +66,28 @@ gem install bundler
 <a id="1"></a>
 ```
 
+## git Version
+
+```powershell
+// 主要是git的操作
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+// 设置一下关于ssh key
+ssh-keygen -t rsa -C "youremail@example.com"
+// 然后吧公钥添加到 github
+- 网页操作
+// (可选)不知道有什么用的ssh-agent管理器
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_isa
+//将远程URL从SSH切换到HTTPS
+git remote -v
+git remote --add git@github.com:name/projectname.git
+// 如果还是不行的话删除掉https
+//测试链接
+ssh -T git@github.com
+```
+
+
 
 ## __目录__
 
@@ -81,3 +101,4 @@ gem install bundler
     - - 好像可以，但是不能html里面带md【完成】
     2. 下次把文章分类做了<br/>例如：按类型<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按月份【随便吧】
 <hr/>
+
