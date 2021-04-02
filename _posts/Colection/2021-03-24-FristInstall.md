@@ -32,16 +32,18 @@ date: 2021-02-24 12:23
 ### [python](https://www.python.org/)
 > python dep
 
-### [sqlite3]
+### [sqlite3](https://sqlite.org/download.html)
 > run and dev
 
-### [TCC]()
+### [TCC](https://bellard.org/tcc/)
 > C language explainer
 
-### [aria2c]
-
+### [aria2c](https://aria2.github.io/)
+> 下载组件
 
 ### plan
 
 
-### vim 
+### vim(https://www.vim.org/)
+
+### ffmpg(https://www.ffmpeg.org/)
