@@ -9,4 +9,4 @@ date: 2019-12-23 16:34
 
 # LOLbash
 
-<a src="/public/bat/cleanlolwb.bat">bat</a>
+<a href="/public/bat/cleanlolwb.bat">bat</a>
